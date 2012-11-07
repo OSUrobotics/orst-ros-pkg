@@ -1,6 +1,7 @@
 - git:
     uri: git://github.com/OSUrobotics/ros-3d-interaction.git
     local-name: 3d_interaction
+    version: rhf-workshop-late-2012
 - git:
     uri: git://github.com/OSUrobotics/ros-head-tracking.git
     local-name: head_tracking
