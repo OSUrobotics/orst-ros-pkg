@@ -19,12 +19,6 @@
     uri: 'https://sbpl.pc.cs.cmu.edu/redmine/people/mike/full-body-nav.git'
     local-name: full-body-nav
     version: fuerte
-- git:
-    uri: 'https://kforge.ros.org/sbpl/sbpl'
-    local-name: sbpl
-- svn:
-    uri: 'http://alufr-ros-pkg.googlecode.com/svn/branches/octomap_mapping-electric/'
-    local-name: octomap_server
 - hg: {local-name: worldmodel, uri: 'https://kforge.ros.org/worldmodel/hg'}
 - git: {local-name: occupancy_grid_utils, uri: 'https://kforge.ros.org/gridutils/git',
     version: master}
