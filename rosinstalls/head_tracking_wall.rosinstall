@@ -7,9 +7,6 @@
 - git:
     uri: git://github.com/wg-perception/people.git
     local-name: people
-- git:
-    url: git://github.com/dlaz/dlaz-openni-launch.git
-    local-name: openni_launch
 
 # this is all from the sushi rosinstall - most of it 
 # isn't necessary, but pr2-python has a lot of dependencies
