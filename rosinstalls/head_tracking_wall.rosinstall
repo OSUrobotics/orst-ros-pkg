@@ -14,12 +14,5 @@
 
 - other: {local-name: /opt/ros/fuerte/ros}
 - other: {local-name: /opt/ros/fuerte/stacks}
-- hg: {local-name: sushi, uri: 'https://kforge.ros.org/Sushi/sushi',
-    version: fuerte}
 - git:
-    uri: 'https://sbpl.pc.cs.cmu.edu/redmine/people/mike/full-body-nav.git'
-    local-name: full-body-nav
-    version: fuerte
-- hg: {local-name: worldmodel, uri: 'https://kforge.ros.org/worldmodel/hg'}
-- git: {local-name: occupancy_grid_utils, uri: 'https://kforge.ros.org/gridutils/git',
-    version: master}
+    uri: git://github.com/dlaz/pr2-python-minimal.git
