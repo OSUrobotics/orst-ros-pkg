@@ -5,6 +5,7 @@
 - git:
     uri: git://github.com/OSUrobotics/ros-head-tracking.git
     local-name: head_tracking
+    version: rhf-workshop-late-2012
 - git:
     uri: git://github.com/wg-perception/people.git
     local-name: people
