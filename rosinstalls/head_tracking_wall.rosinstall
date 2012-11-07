@@ -16,3 +16,4 @@
 - other: {local-name: /opt/ros/fuerte/stacks}
 - git:
     uri: git://github.com/dlaz/pr2-python-minimal.git
+    local-name: pr2_python_minimal
