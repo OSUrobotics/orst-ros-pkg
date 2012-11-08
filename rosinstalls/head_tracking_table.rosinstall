@@ -1,12 +1,19 @@
-- svn:
-    uri: http://wu-robotics.googlecode.com/svn/trunk/3d_interaction/
+- git:
+    uri: git://github.com/OSUrobotics/ros-3d-interaction.git
     local-name: 3d_interaction
-- svn:
-    uri: http://wu-robotics.googlecode.com/svn/trunk/head_tracking/
+    version: master
+- git:
+    uri: git://github.com/OSUrobotics/ros-head-tracking.git
     local-name: head_tracking
-- svn:
-    uri: http://wu-robotics.googlecode.com/svn/trunk/people2/
-    local-name: people2
+    version: master
+- git:
+    uri: git://github.com/wg-perception/people.git
+    local-name: people
+- git:
+    uri: git://github.com/dlaz/pr2_pick_and_place_demos_no_move_head.git
+    local-name: pr2_pick_and_place_demos
+    version: master
+
 # this is all from the sushi rosinstall - most of it 
 # isn't necessary, but pr2-python has a lot of dependencies
 
