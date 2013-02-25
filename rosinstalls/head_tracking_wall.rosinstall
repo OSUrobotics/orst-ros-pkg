@@ -1,14 +1,15 @@
 - git:
     uri: git://github.com/OSUrobotics/ros-3d-interaction.git
     local-name: 3d_interaction
-    version: rhf-workshop-late-2012
+    version: master
 - git:
     uri: git://github.com/OSUrobotics/ros-head-tracking.git
     local-name: head_tracking
-    version: rhf-workshop-late-2012
+    version: groovy-devel
 - git:
     uri: git://github.com/wg-perception/people.git
     local-name: people
+    version: groovy-devel
 - git:
     uri: git://github.com/jhu-lcsr/lcsr_tf_tools.git
     local-name: lcsr_tf_tools
