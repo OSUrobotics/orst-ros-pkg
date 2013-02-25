@@ -10,7 +10,7 @@
     uri: git://github.com/wg-perception/people.git
     local-name: people
 - git:
-    uri: https://bitbucket.org/jbohren/lcsr_tf_tools.git
+    uri: git://github.com/jhu-lcsr/lcsr_tf_tools.git
     local-name: lcsr_tf_tools
 
 # this is all from the sushi rosinstall - most of it 
