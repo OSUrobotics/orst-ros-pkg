@@ -1,0 +1,17 @@
+<launch>
+
+    <!-- Robot Description --> <param name="robot_description" textfile="/etc/ros/groovy/urdf/robot.xml" />
+
+    <!-- Robot Analyzer --> <rosparam command="load" file="$(find pr2_bringup)/config/pr2_analyzers.yaml" ns="diag_agg" />
+
+    <!-- Robot bringup --> <include file="$(find pr2_bringup)/pr2.launch" />
+
+    <!-- Web ui <include file="$(find webui)/webui.launch" /> -->
+
+    <!-- Nodes for RMS -->
+    <node name="mjpeg_server" pkg="mjpeg_server" type="mjpeg_server" />
+    <node name="rosbridge_server" pkg="rosbridge_server" type="rosbridge_websocket" />
+    
+    <rosparam file="/etc/ros/robot.yaml"/>
+
+</launch> 
