@@ -1,0 +1,11 @@
+- git:
+    uri: https://github.com/OSUrobotics/ros-3d-interaction.git
+    local-name: 3d_interaction
+    version: groovy-devel
+- git:
+    uri: https://github.com/dlaz/pr2-python-minimal.git
+    local-name: pr2_python_minimal
+- git:
+    uri: https://github.com/OSUrobotics/projected-interface-builder.git
+    local-name: projected_interface_builder
+    version: fancy-coords
