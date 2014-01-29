@@ -9,3 +9,6 @@
     uri: https://github.com/OSUrobotics/projected-interface-builder.git
     local-name: projected_interface_builder
     version: fancy-coords
+- git:
+    uri: https://github.com/OSUrobotics/simple_webcam.git
+    local-name: simple_webcam
