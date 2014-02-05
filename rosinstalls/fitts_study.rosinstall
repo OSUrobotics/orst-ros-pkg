@@ -12,3 +12,6 @@
 - git:
     uri: https://github.com/OSUrobotics/simple_webcam.git
     local-name: simple_webcam
+- git:
+    uri: https://github.com/LucidOne/ar_tools.git
+    local-name: ar_tools
