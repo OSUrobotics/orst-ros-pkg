@@ -1,0 +1,6 @@
+- git: {local-name: wheelchair_automation, uri: 'git@github.com:OSUrobotics/wheelchair-automation.git', version: cleanup}
+- git: {local-name: ira_laser_tools, uri: 'https://github.com/iralabdisco/ira_laser_tools.git'}
+- git: {local-name: scan_tools, uri: 'https://github.com/ccny-ros-pkg/scan_tools.git',
+    version: hydro}
+- git: {local-name: Privacy-GUI, uri: 'git@github.com:dlaz/Privacy-GUI.git', version: world_coords}
+- git: {local-name: peac_bridge, uri: 'git@github.com:OSUrobotics/peac_bridge.git'}
