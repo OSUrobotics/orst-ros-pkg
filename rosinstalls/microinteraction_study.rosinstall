@@ -1,0 +1,34 @@
+- git:
+    uri: https://github.com/OSUrobotics/ros-3d-interaction.git
+    local-name: projected_interface_tools
+    version: catkinize
+- git:
+    uri: https://github.com/dlaz/pr2-python-minimal.git
+    local-name: pr2_python
+    version: catkinize
+- git:
+    uri: https://github.com/OSUrobotics/projected-interface-builder.git
+    local-name: projected_interface_builder
+    version: catkinize
+- git:
+    uri: https://github.com/OSUrobotics/simple_webcam.git
+    local-name: simple_webcam
+    version: hydro-devel
+- git:
+    uri: https://github.com/OSUrobotics/microinteraction_study.git
+    local-name: microinteraction_study
+- git:
+    uri: https://github.com/OSUrobotics/vlc.git
+    local-name: vlc
+- git:
+    uri: https://github.com/OSUrobotics/reconfigurable_transform_publisher.git
+    local-name: reconfigurable_transform_publisher
+    version: hydro-devel
+- git:
+    uri: https://github.com/OSUrobotics/splashscreen.git
+    local-name: splashscreen
+- git:
+    local-name: rosh_core
+    uri: https://github.com/OSUrobotics/rosh_core.git
+    version: hydro-devel
+
