@@ -31,3 +31,4 @@
     local-name: rosh_core
     uri: https://github.com/OSUrobotics/rosh_core.git
     version: hydro-devel
+
