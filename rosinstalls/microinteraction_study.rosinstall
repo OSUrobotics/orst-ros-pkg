@@ -1,7 +1,7 @@
 - git:
     uri: https://github.com/OSUrobotics/ros-3d-interaction.git
     local-name: projected_interface_tools
-    version: catkinize
+    version: indigo-devel
 - git:
     uri: https://github.com/dlaz/pr2-python-minimal.git
     local-name: pr2_python
